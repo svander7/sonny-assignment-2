@@ -1,0 +1,22 @@
+1. Generate a random number between 1 and 100.				/// This is a method called ranNum() \\\
+
+2. Prompt player to "Pick a number between 1 and 100."		***Only use int values***
+
+3. If player enters a number outside of this range display message "Your guess is not between 1 and 100, please try again."
+
+  3a. Invalid input should not affect the number of guesses the player has left.
+
+4. If player enters a valid guess then display messages below:
+
+  4a. If number guessed is lower than random number "Please pick a higher number."
+
+  4b. If number guessed is higher than random number "Please pick a lower number."
+
+  4c. If number guessed is the random number "You win!"
+
+5. Player gets 5 chances to guess the random number.
+
+6. If they haven't guessed the random number after 5 tries, game is over and display message "You lose, the number to guess was theRandomNumber."  Where theRandomNumberis the
+   actual value of the random number generated at the begining of the game.
+
+7. The game is over and the app ends once the user fails to guess the random number or they correctly guess the random number.
