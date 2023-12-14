@@ -35,7 +35,7 @@ public class Assignment2Aplication {
 			numGuesses--;
 		}
 		System.out.println("You lose, the number to guess was " + randomNumber + ".");
-		
+
 		scanner.close();
 	}
 }
