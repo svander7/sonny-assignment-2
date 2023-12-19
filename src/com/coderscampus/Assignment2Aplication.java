@@ -12,9 +12,8 @@ public class Assignment2Aplication {
 		int numGuesses = 5;
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Pick a number between 1 and 100.");
-
 		while (numGuesses > 0) {
+			System.out.println("Pick a number between 1 and 100.");
 			int guess = scanner.nextInt();
 
 			if (guess < 1 || guess > 100) {
